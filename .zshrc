@@ -40,15 +40,6 @@ alias nvrst="cd ~/Code/Rust && v"
 # ZSH ALIASES
 alias zsrc="source ~/.zshrc"
 alias zrc="nvim ~/.zshrc"
-zshgit() {
-  cp ~/.zshrc ~/Documents/backups/zsh/
-  cd ~/Documents/backups/zsh/
-  git add .
-  git commit -m "$*"
-  git push -u github main
-  cd ~
-}
-
 
 
 
